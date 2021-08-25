@@ -1,0 +1,12 @@
+fig:settings-general
+fig:settings-code
+fig:img-soundimals-hash
+intro
+ilo-intro
+installing-r
+installing-base-r
+installing-rstudio
+rstudio-settings
+installing-latex
+symbols
+conventions
