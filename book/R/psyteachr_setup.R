@@ -45,11 +45,12 @@ knitr::knit_hooks$set(class = function(before, options, envir) {
 ## verbatim code chunks
 knitr::knit_hooks$set(verbatim = function(before, options, envir) {
   if (before) {
-    sprintf("<div class='verbatim'><code>&#96;&#96;&#96;{%s}</code>", options$verbatim)
+    sprintf("<div class='verbatim'><pre class='sourceCode r'><code class='sourceCode R'>&#96;&#96;&#96;{%s}</code></pre>", options$verbatim)
   } else {
-    "<code>&#96;&#96;&#96;</code></div>"
+    "<pre class='sourceCode r'><code class='sourceCode R'>&#96;&#96;&#96;</code></pre></div>"
   }
 })
+
 
 ## verbatim inline R in backticks
 backtick <- function(code) {
