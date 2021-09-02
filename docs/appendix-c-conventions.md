@@ -3,10 +3,10 @@
 This book will use the following conventions:
 
 * Generic code: `list(number = 1, letter = "A")`
-* Highlighted code: <code><span class='fu'><a href='https://rdrr.io/r/base/list.html'>list</a></span><span class='op'>(</span>number <span class='op'>=</span> <span class='fl'>1</span>, letter <span class='op'>=</span> <span class='st'>"A"</span><span class='op'>)</span></code>
+* Highlighted code: <code><span class='fu'>dplyr</span><span class='fu'>::</span><span class='fu'><a target='_blank' href='https://dplyr.tidyverse.org/reference/slice.html'>slice_max</a></span><span class='op'>(</span><span class='op'>)</span></code>
 * File paths: <code class='path'>data/sales.csv</code>
 * R Packages: <code class='package'>tidyverse</code>
-* Functions: <code><span class='fu'><a href='https://rdrr.io/r/base/paste.html'>paste</a></span><span class='op'>(</span><span class='op'>)</span></code>
+* Functions: <code><span class='fu'><a target='_blank' href='https://rdrr.io/r/base/paste.html'>paste</a></span><span class='op'>(</span><span class='op'>)</span></code>
 * Strings: <code><span class='st'>"psyTeachR"</span></code>
 * Numbers: <code><span class='fl'>100</span></code>, <code><span class='fl'>3.14</span></code>
 * Logical values: <code><span class='cn'>TRUE</span></code>, <code><span class='cn'>FALSE</span></code>
@@ -47,3 +47,13 @@ paste("Applied", "Data", "Skills", 1, sep = " ")
 ```
 ## [1] "Applied Data Skills 1"
 ```
+
+
+<div class='verbatim'><pre class='sourceCode r'><code class='sourceCode R'>&#96;&#96;&#96;{r setup, message = FALSE}</code></pre>
+
+```r
+# code chunks with visible r headers
+library(tidyverse)
+```
+
+<pre class='sourceCode r'><code class='sourceCode R'>&#96;&#96;&#96;</code></pre></div>

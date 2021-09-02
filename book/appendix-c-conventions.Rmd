@@ -3,7 +3,7 @@
 This book will use the following conventions:
 
 * Generic code: `list(number = 1, letter = "A")`
-* Highlighted code: `r hl(list(number = 1, letter = "A"))`
+* Highlighted code: `r hl(dplyr::slice_max())`
 * File paths: `r path("data/sales.csv")`
 * R Packages: `r pkg("tidyverse")`
 * Functions: `r hl(paste())`
@@ -40,4 +40,10 @@ Try it yourself.
 ```{r}
 # code chunks
 paste("Applied", "Data", "Skills", 1, sep = " ")
+```
+
+
+```{r, eval=FALSE, verbatim='r setup, message = FALSE'}
+# code chunks with visible r headers
+library(tidyverse)
 ```
