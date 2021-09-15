@@ -5,3 +5,4 @@
 * Understand structure and content of course
 * Install R and RStudio
 * Understand reproducibility
+

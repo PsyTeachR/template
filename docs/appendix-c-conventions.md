@@ -15,12 +15,33 @@ This book will use the following conventions:
 * Internal links: Chapter\ \@ref(intro)
 * External links: [R for Data Science](https://r4ds.had.co.nz/){target="_blank"}
 * Menu/interface options: **`New File...`**
-* Quiz question: I am going to learn a lot: <select class='webex-solveme' data-answer='["TRUE"]'> <option></option> <option>TRUE</option> <option>FALSE</option></select>
+
+## Webexercises
+
+* Type an integer: <input class='webex-solveme nospaces regex' size='1' data-answer='["^[0-9]{1}$"]'/>
+* I am going to learn a lot: <select class='webex-select'><option value='blank'></option><option value='answer'>TRUE</option><option value='x'>FALSE</option></select>
+* What is a p-value? <div class='webex-radiogroup' id='radio_ZRKZNKOEUJ'><label><input type="radio" autocomplete="off" name="radio_ZRKZNKOEUJ" value="x"></input> <span>the probability that the null hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_ZRKZNKOEUJ" value="answer"></input> <span>the probability of the observed (or more extreme) data, under the assumption that the null-hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_ZRKZNKOEUJ" value="x"></input> <span>the probability of making an error in your conclusion</span></label></div>
 
 
-<div class='webex-solution'><button>Hidden Solutions</button>
-You found it!
+<div class='webex-solution'><button>Hidden Text</button>
+You found some hidden text!
 </div>
+
+
+<div class='webex-solution'><button>Hidden Code</button>
+
+```r
+print("You found some hidden code!")
+```
+
+```
+## [1] "You found some hidden code!"
+```
+
+
+</div>
+
+## Alert boxes
 
 ::: {.info data-latex=""}
 Informational asides.
@@ -37,6 +58,8 @@ Notes about things that could cause serious errors.
 ::: {.try data-latex=""}
 Try it yourself.
 :::
+
+## Code Chunks
 
 
 ```r
@@ -57,3 +80,13 @@ library(tidyverse)
 ```
 
 <pre class='sourceCode r'><code class='sourceCode R'>&#96;&#96;&#96;</code></pre></div>
+
+## Glossary
+
+
+
+|term                                                                                             |definition                                                             |
+|:------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
+|[ordinal](https://psyteachr.github.io/glossary/o.html#ordinal){class="glossary" target="_blank"} |Discrete variables that have an inherent order, such as number of legs |
+
+

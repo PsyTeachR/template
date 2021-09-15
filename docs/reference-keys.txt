@@ -10,3 +10,7 @@ rstudio-settings
 installing-latex
 symbols
 conventions
+webexercises
+alert-boxes
+code-chunks
+glossary

@@ -24,7 +24,9 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book:
-  stylesheet: include/epub.css
-  cover_image: images/logo.png
+  stylesheet:
+  - include/webex.css
+  - include/epub.css
+  cover_image: images/logos/logo.png
   toc: yes
   toc_depth: 2

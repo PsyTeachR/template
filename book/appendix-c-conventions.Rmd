@@ -15,11 +15,32 @@ This book will use the following conventions:
 * Internal links: Chapter\ \@ref(intro)
 * External links: [R for Data Science](https://r4ds.had.co.nz/){target="_blank"}
 * Menu/interface options: **`New File...`**
-* Quiz question: I am going to learn a lot: `r torf(TRUE)`
 
-```{block, webex.hide="Hidden Solutions"}
-You found it!
+## Webexercises
+
+* Type an integer: `r fitb("^[0-9]{1}$", width = 1, regex = TRUE)`
+* I am going to learn a lot: `r mcq(c(answer = "TRUE", x = "FALSE"))`
+```{r, echo=FALSE, results='asis'}
+# https://psyteachr.github.io/webexercises/
+# epub rendering requires all options have a value, so just use x
+
+opts <- c(
+   x = "the probability that the null hypothesis is true",
+   answer = "the probability of the observed (or more extreme) data, under the assumption that the null-hypothesis is true",
+   x = "the probability of making an error in your conclusion"
+)
+cat("* What is a p-value?", longmcq(opts))
 ```
+
+```{block, webex.hide="Hidden Text"}
+You found some hidden text!
+```
+
+```{r, webex.hide="Hidden Code"}
+print("You found some hidden code!")
+```
+
+## Alert boxes
 
 ::: {.info data-latex=""}
 Informational asides.
@@ -37,6 +58,8 @@ Notes about things that could cause serious errors.
 Try it yourself.
 :::
 
+## Code Chunks
+
 ```{r}
 # code chunks
 paste("Applied", "Data", "Skills", 1, sep = " ")
@@ -47,3 +70,7 @@ paste("Applied", "Data", "Skills", 1, sep = " ")
 # code chunks with visible r headers
 library(tidyverse)
 ```
+
+## Glossary
+
+`r glossary::glossary_table()`

@@ -1,22 +1,23 @@
 --- 
-title: "Template"
-subtitle: "psyTeachR Books"
-author: "psyTeachR Team"
+title: "Template" # edit
+subtitle: "optional" # edit or edelete
+author: "psyTeachR Team" # edit
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
+classoption: oneside # for PDFs
+geometry: margin=1in # for PDFs
 bibliography: [book.bib, packages.bib]
-biblio-style: apa
 csl: include/apa.csl
 link-citations: yes
-description: |
+description: | # edit
   This book ...
-url: https://psyteachr.github.io/template
-github-repo: psyteachr/template
-cover-image: images/logos/twitter_card.png
-apple-touch-icon: images/logos/apple-touch-icon.png
+url: https://psyteachr.github.io/template # edit
+github-repo: psyteachr/template # edit
+cover-image: images/logos/logo.png # replace with your logo
+apple-touch-icon: images/logos/apple-touch-icon.png # replace with your logo
 apple-touch-icon-size: 180
-favicon: images/logos/favicon.ico
+favicon: images/logos/favicon.ico # replace with your logo
 ---
 
 ```{r cite-packages, include = FALSE}
@@ -30,15 +31,17 @@ knitr::write_bib(c(
 
 # Overview {-}
 
-This book ...
-
 <div class="small_right"><img src="images/logos/logo.png" 
      alt="ADS Hex Logo" /></div>
 
-By the end of this book, you will be able to:
 
-* do
-* some
-* stuff
-
-
+```{r, echo = FALSE, results='asis'}
+# text is omitted in the PDF
+if (knitr::is_html_output()) {
+  cat("
+* [PDF version](_main.pdf)
+* [ePub version](_main.epub)
+* [Kindle version](_main.mobi)
+")
+}
+```
