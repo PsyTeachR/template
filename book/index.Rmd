@@ -45,3 +45,5 @@ if (knitr::is_html_output()) {
 ")
 }
 ```
+
+After copying this template to your project, you will need to change the information in the `CITATION` and `DESCRIPTION` files, as well as update the YAML header of `book/index.Rmd` and `book/_output.yml`.

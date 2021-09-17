@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.23)  15 SEP 2021 17:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.23)  17 SEP 2021 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,7 +961,7 @@ Chapter 1.
 ]
 Appendix A.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 202.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 204.
 Missing character: There is no ⌘ ("2318) in font ec-lmr10!
 File: images/rstudio_settings_general_appearance.png Graphic file (type bmp)
 <images/rstudio_settings_general_appearance.png>
@@ -974,13 +974,13 @@ Appendix B.
 File: images/soundimals_hash.png Graphic file (type bmp)
 <images/soundimals_hash.png>
 
-Overfull \hbox (55.76917pt too wide) in paragraph at lines 306--306
+Overfull \hbox (55.76917pt too wide) in paragraph at lines 308--308
 []\T1/lmr/m/n/10 Figure B.1: [][Image by James Chapman/Soundimals](https://soun
 dimals.tumblr.com/post/167354564886/chapmangamo-
  []
 
 
-LaTeX Warning: Float too large for page by 8.2523pt on input line 307.
+LaTeX Warning: Float too large for page by 8.2523pt on input line 309.
 
 [7
 

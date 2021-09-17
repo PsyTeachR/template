@@ -2,7 +2,7 @@
 title: "Template" # edit
 subtitle: "optional" # edit or edelete
 author: "psyTeachR Team" # edit
-date: "2021-09-15"
+date: "2021-09-17"
 site: bookdown::bookdown_site
 documentclass: book
 classoption: oneside # for PDFs
@@ -32,3 +32,5 @@ favicon: images/logos/favicon.ico # replace with your logo
 * [PDF version](_main.pdf)
 * [ePub version](_main.epub)
 * [Kindle version](_main.mobi)
+
+After copying this template to your project, you will need to change the information in the `CITATION` and `DESCRIPTION` files, as well as update the YAML header of `book/index.Rmd` and `book/_output.yml`.
