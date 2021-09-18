@@ -20,6 +20,12 @@
   .book-toc {
     column-count: 1;
   }
+
+  #content {
+    flex:0 0 100%;
+    -webkit-flex:0 0 100%;
+    max-width:100%
+  }
 }
 
 .chapter-nav .next, .chapter-nav .prev {
