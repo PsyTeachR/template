@@ -29,8 +29,8 @@ favicon: images/logos/favicon.ico # replace with your logo
 
 
 
-* [PDF version](_main.pdf)
-* [ePub version](_main.epub)
-* [Kindle version](_main.mobi)
+* [PDF version](template.pdf)
+* [ePub version](template.epub)
+* [Kindle version](template.mobi)
 
 After copying this template to your project, you will need to change the information in the `CITATION` and `DESCRIPTION` files, as well as update the YAML header of `book/index.Rmd` and `book/_output.yml`.

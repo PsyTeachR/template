@@ -39,9 +39,9 @@ knitr::write_bib(c(
 # text is omitted in the PDF
 if (knitr::is_html_output()) {
   cat("
-* [PDF version](_main.pdf)
-* [ePub version](_main.epub)
-* [Kindle version](_main.mobi)
+* [PDF version](template.pdf)
+* [ePub version](template.epub)
+* [Kindle version](template.mobi)
 ")
 }
 ```
