@@ -8,6 +8,13 @@ $( document ).ready(function() {
     psyteachr + license + cite
   );
 
+  // open rdrr links externally
+  $("a[href^='https://rdrr.io']").click(function(){
+    window.open(this.href);
+    return false;
+  });
+
+  // visible second sidebar in mobile
   function move_sidebar() {
     var w = window.innerWidth;
     if (w < 992) {
