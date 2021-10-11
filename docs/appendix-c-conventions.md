@@ -3,7 +3,7 @@
 This book will use the following conventions:
 
 * Generic code: `list(number = 1, letter = "A")`
-* Highlighted code: <code><span class='fu'>dplyr</span><span class='fu'>::</span><span class='fu'><a target='_blank' href='https://dplyr.tidyverse.org/reference/slice.html'>slice_max</a></span><span class='op'>(</span><span class='op'>)</span></code>
+* Highlighted code: <code><span class='fu'>dplyr</span><span class='fu'>::</span><span class='fu'><a target='_blank' href='https://rdrr.io/pkg/dplyr/man/slice.html'>slice_max</a></span><span class='op'>(</span><span class='op'>)</span></code>
 * File paths: <code class='path'>data/sales.csv</code>
 * R Packages: <code class='package'>tidyverse</code>
 * Functions: <code><span class='fu'><a target='_blank' href='https://rdrr.io/r/base/paste.html'>paste</a></span><span class='op'>(</span><span class='op'>)</span></code>
@@ -20,7 +20,7 @@ This book will use the following conventions:
 
 * Type an integer: <input class='webex-solveme nospaces regex' size='1' data-answer='["^[0-9]{1}$"]'/>
 * I am going to learn a lot: <select class='webex-select'><option value='blank'></option><option value='answer'>TRUE</option><option value='x'>FALSE</option></select>
-* What is a p-value? <div class='webex-radiogroup' id='radio_PFUHGJXSOO'><label><input type="radio" autocomplete="off" name="radio_PFUHGJXSOO" value="x"></input> <span>the probability that the null hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_PFUHGJXSOO" value="answer"></input> <span>the probability of the observed (or more extreme) data, under the assumption that the null-hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_PFUHGJXSOO" value="x"></input> <span>the probability of making an error in your conclusion</span></label></div>
+* What is a p-value? <div class='webex-radiogroup' id='radio_KBNTGKNLAS'><label><input type="radio" autocomplete="off" name="radio_KBNTGKNLAS" value="x"></input> <span>the probability that the null hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_KBNTGKNLAS" value="answer"></input> <span>the probability of the observed (or more extreme) data, under the assumption that the null-hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_KBNTGKNLAS" value="x"></input> <span>the probability of making an error in your conclusion</span></label></div>
 
 
 <div class='webex-solution'><button>Hidden Text</button>

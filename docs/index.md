@@ -2,7 +2,7 @@
 title: "Template" # edit
 subtitle: "optional" # edit or edelete
 author: "psyTeachR Team" # edit
-date: "2021-09-18"
+date: "2021-10-11"
 site: bookdown::bookdown_site
 documentclass: book
 classoption: oneside # for PDFs
