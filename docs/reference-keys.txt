@@ -1,8 +1,17 @@
+fig:plot-text-labels
+fig:plot-text-labels-facet
+fig:plot-shapes
 fig:settings-general
 fig:settings-code
 fig:img-soundimals-hash
-intro
-ilo-intro
+changes
+version-2.1-2021-10-14
+inclusion
+tips-for-text-readers
+resources-for-blind-coders
+dyslexia-friendly-resources
+colour
+sex-gender-and-sexuality
 installing-r
 installing-base-r
 installing-rstudio
@@ -14,3 +23,4 @@ webexercises
 alert-boxes
 code-chunks
 glossary
+glossary-1

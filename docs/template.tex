@@ -157,15 +157,8 @@
 \bibliographystyle{plainnat}
 
 \title{Template}
-\usepackage{etoolbox}
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
-}
-\makeatother
-\subtitle{optional}
 \author{psyTeachR Team}
-\date{2021-09-18}
+\date{2021-10-14}
 
 \begin{document}
 \maketitle
@@ -178,22 +171,177 @@
 \chapter*{Overview}\label{overview}}
 \addcontentsline{toc}{chapter}{Overview}
 
-After copying this template to your project, you will need to change the information in the \texttt{CITATION} and \texttt{DESCRIPTION} files, as well as update the YAML header of \texttt{book/index.Rmd} and \texttt{book/\_output.yml}.
+After copying this template to your project, you will need to change the information in the \texttt{CITATION} and \texttt{DESCRIPTION} files, as well as update the YAML header of \texttt{book/index.Rmd} and \texttt{book/\_output.yml}. Update site-specific logos in \texttt{book/images/logos/}.
 
-\hypertarget{intro}{%
-\chapter{Intro to R and RStudio}\label{intro}}
+If you are not part of the psyTeachR group, please edit the Google Analytics ID in \texttt{include/google-analytics.html} or comment out the relevant line in \texttt{book/\_output.yml}.
 
-\hypertarget{ilo-intro}{%
-\section{Intended Learning Outcomes}\label{ilo-intro}}
+Render the book using the code in \texttt{\_render.R}.
+
+\hypertarget{changes}{%
+\section{Changes}\label{changes}}
+
+\hypertarget{version-2.1-2021-10-14}{%
+\subsection{Version 2.1 2021-10-14}\label{version-2.1-2021-10-14}}
 
 \begin{itemize}
 \tightlist
 \item
-  Understand structure and content of course
+  Updated webexercises styles to include a green check and red X for correct and incorrect responses.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{book/include/webex.css} (replace)
+  \item
+    \texttt{book/include/webex.js} (replace)
+  \end{itemize}
 \item
-  Install R and RStudio
+  Changed the name of \texttt{book/include/header.html} to \texttt{book/include/google-analytics.html} to better reflect its purpose.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{book/include/header.html} (delete)
+  \item
+    \texttt{book/include/google-analytics.html} (add)
+  \item
+    \texttt{book/\_output.yml} (change line 10)
+  \end{itemize}
 \item
-  Understand reproducibility
+  Updated rendering functions to not render pdf epub or mobi by default
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{\_render.R} (replace)
+  \item
+    \texttt{Makefile} (add)
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{inclusion}{%
+\chapter{Inclusion}\label{inclusion}}
+
+We want our resources to be accessible to everyone. This means thinking about accessibility with regards to disability, language, identity, and other characteristics. This is a work in progress; feel free to suggest additions.
+
+\hypertarget{tips-for-text-readers}{%
+\section{Tips for text-readers}\label{tips-for-text-readers}}
+
+Some students need to use text readers for accessibility; others just prefer this method. Here are some tips for improving their experience from the \href{https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide}{Dyslexia Style Guide}.
+
+\begin{itemize}
+\tightlist
+\item
+  Use straight quotation marks
+\item
+  Avoid roman numerals
+\item
+  Avoid text in figures
+\end{itemize}
+
+Bookdown books allow readers to change the font style, size, and background colour. This provides essential accessibility for some people, such as those with dyslexia or visual impairments. Therefore, avoid putting too much text in figures and provide descriptions of images in the figure caption.
+
+\hypertarget{resources-for-blind-coders}{%
+\section{Resources for blind coders}\label{resources-for-blind-coders}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/ajrgodfrey/BrailleR}{BrailleR}: a collection of tools to make use of R a happier experience for blind people
+\item
+  \href{https://journal.r-project.org/archive/2013/RJ-2013-007/RJ-2013-007.pdf}{Statistical Software from a Blind Person's Perspective}
+\end{itemize}
+
+\hypertarget{dyslexia-friendly-resources}{%
+\section{Dyslexia-friendly resources}\label{dyslexia-friendly-resources}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.bdadyslexia.org.uk/educator}{British Dyslexia Association}
+\item
+  \href{https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide}{Dyslexia Style Guide}
+\item
+  \href{https://datacarpentry.org/blog/2017/09/coding-and-dyslexia}{Dyslexia and Coding}: Data Carpentry blog post
+\item
+  \href{https://cran.r-project.org/web/packages/fcuk/vignettes/fcuk.html}{fcuk}: A package designed to help people with clumsy fingers
+\end{itemize}
+
+Some recommendations are highlighted below.
+
+\begin{itemize}
+\tightlist
+\item
+  Avoid underlining, block capitals, and italics -- Use bold instead
+\item
+  Use \href{conventions.html\#alert-boxes}{boxes and borders} for effective emphasis
+\item
+  Use left-justified with ragged right edge (don't full-justify)
+\item
+  Use bullet points and numbering rather than continuous prose
+\item
+  Use the active voice with concise, direct sentences
+\item
+  Avoid abbreviations and provide a \href{glossary.html}{glossary} of jargon
+\end{itemize}
+
+\hypertarget{colour}{%
+\section{Colour}\label{colour}}
+
+You can check your images for how they look to people with different types of colourblindness with the \href{https://www.color-blindness.com/coblis-color-blindness-simulator/}{Coblis Color Blindness Simulator}.
+
+Desi Quintans made \href{https://github.com/DesiQuintans/Pebble-safe}{dark and light colour-blind safe RStudio themes}.
+
+The ``pink'' and ``green'' colours from the \href{}{psyteachr\_colours()} function are distinguishable by people with protanopia (red-blind), deuteronopia (green-blind), and tritanopia (blue-blind) colourblindness. You can also use viridis colours with \texttt{ggplot2::scale\_colour\_viridis\_d()} and \texttt{ggplot2::scale\_fill\_viridis\_d()} (for discrete colours) or \texttt{ggplot2::scale\_colour\_viridis\_c()} and \texttt{ggplot2::scale\_fill\_viridis\_c()} (for continuous colours).
+
+In plots, add secondary indicators in addition to colour, such as text labels or shapes.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{01-intro_files/figure-latex/plot-text-labels-1} 
+
+}
+
+\caption{Text labels supplement colour information.}\label{fig:plot-text-labels}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{01-intro_files/figure-latex/plot-text-labels-facet-1} 
+
+}
+
+\caption{Facet labels and redundant colour information.}\label{fig:plot-text-labels-facet}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{01-intro_files/figure-latex/plot-shapes-1} 
+
+}
+
+\caption{Supplement point colours with shapes.}\label{fig:plot-shapes}
+\end{figure}
+
+\hypertarget{sex-gender-and-sexuality}{%
+\section{Sex, gender and sexuality}\label{sex-gender-and-sexuality}}
+
+When teaching about experimental design, sex always used to be my go-to example of a two-level between-subjects factor. But this can make some people feel like their very existence is being ignored. In your examples, avoid implicitly assuming heterosexuality or binary gender.
+
+If you want to suggest an in-class exercise that uses data from the students, make sure to choose something that doesn't exclude anyone.
+
+\begin{itemize}
+\tightlist
+\item
+  Pet owners/non-pet owners
+\item
+  Normally does/doesn't wear glasses
+\item
+  Can/can't juggle
+\item
+  Native/non-native English speakers
+\item
+  Born in Scotland/elsewhere
 \end{itemize}
 
 \hypertarget{appendix-appendices}{%
@@ -336,7 +484,7 @@ This book will use the following conventions:
 \item
   Citations: \citet{R-tidyverse}
 \item
-  Internal links: Chapter~\ref{intro}
+  Internal links: Chapter~\ref{inclusion}
 \item
   External links: \href{https://r4ds.had.co.nz/}{R for Data Science}
 \item
@@ -345,6 +493,8 @@ This book will use the following conventions:
 
 \hypertarget{webexercises}{%
 \section{Webexercises}\label{webexercises}}
+
+See \href{https://psyteachr.github.io/webexercises/}{webexercises} for more details about how to use this in your materials.
 
 \begin{itemize}
 \tightlist
@@ -355,7 +505,7 @@ This book will use the following conventions:
 \item
   What is a p-value?
 
-  \hypertarget{radio_NOYLYXSVMZ}{}
+  \hypertarget{radio_LLQBBPYUJJ}{}
   {the probability that the null hypothesis is true} {the probability of the observed (or more extreme) data, under the assumption that the null-hypothesis is true} {the probability of making an error in your conclusion}
 \end{itemize}
 
@@ -430,11 +580,55 @@ ordinal & Discrete variables that have an inherent order, such as number of legs
 \hline
 \end{tabular}
 
+\hypertarget{glossary-1}{%
+\chapter{Glossary}\label{glossary-1}}
+
+You can use the \texttt{glossary()} function to automatically link to a term in the \href{https://psyteachr.github.io/glossary/}{psyTeachR glossary} or make your own project-specific glossary.
+
+This will create a link to the glossary and include a tooltip with a short definition when you hover over the term. Use the following syntax in inline r: \texttt{glossary("word")}. For example, common data types are integer, double, and character.
+
+If you need to link to a definition, but are using a different form of the word, add the display version as the second argument (\texttt{display}). You can also override the automatic short definition by providing your own in the third argument (\texttt{def}). Add the argument \texttt{link\ =\ FALSE} if you just want the hover definition and not a link to the psyTeachR glossary.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{glossary}\NormalTok{(}\StringTok{"data type"}\NormalTok{, }
+         \AttributeTok{display =} \StringTok{"Data Types"}\NormalTok{, }
+         \AttributeTok{def =} \StringTok{"My custom definition of data types"}\NormalTok{, }
+         \AttributeTok{link =} \ConstantTok{FALSE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+{[}1{]} ``Data Types''
+
+You can add a glossary table to the end of a chapter with the following code. It creates a table of all terms used in that chapter previous to the \texttt{glossary\_table()} function. It uses \texttt{kableExtra()}, so if you use it in a code chunk, set \texttt{results=\textquotesingle{}asis\textquotesingle{}}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{glossary\_table}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{tabular}{l|l}
+\hline
+term & definition\\
+\hline
+character & A data type representing strings of text.\\
+\hline
+data-type & My custom definition of data types\\
+\hline
+double & A data type representing a real decimal number\\
+\hline
+integer & A data type representing whole numbers.\\
+\hline
+\end{tabular}
+
+If you want to contribute to the glossary, fork the \href{https://github.com/PsyTeachR/glossary}{github project}, add your terms and submit a pull request, or suggest a new term at the \href{https://github.com/PsyTeachR/glossary/issues}{issues page}.
+
 \hypertarget{license}{%
 \chapter*{License}\label{license}}
 \addcontentsline{toc}{chapter}{License}
 
-This book is licensed under Creative Commons Attribution-ShareAlike 4.0 International License \href{https://creativecommons.org/licenses/by-sa/4.0/}{(CC-BY-SA 4.0)}. You are free to share and adapt this book. You must give appropriate credit, provide a link to the license, and indicate if changes were made. If you adapt the material, you must distribute your contributions under the same license as the original.
+This book is licensed under Creative Commons Attribution-ShareAlike 4.0 International License \href{https://creativecommons.org/licenses/by-sa/4.0/}{(CC-BY-SA 4.0)}. You are free to share and adapt this book. You must give appropriate credit \citep{psyteachr-template}, provide a link to the license, and indicate if changes were made. If you adapt the material, you must distribute your contributions under the same license as the original.
 
   \bibliography{book.bib,packages.bib}
 

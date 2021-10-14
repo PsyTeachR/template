@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.18)  18 SEP 2021 18:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.18)  14 OCT 2021 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,40 +715,40 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 170.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 170.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 170.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 170.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 170.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 170.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 170.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 163.
 
 Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
 
@@ -777,11 +777,11 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Trying to load font information for T1+latinmodern-math.otf
-(0) on input line 170.
-LaTeX Font Info:    No file T1latinmodern-math.otf(0).fd. on input line 170.
+(0) on input line 163.
+LaTeX Font Info:    No file T1latinmodern-math.otf(0).fd. on input line 163.
 
 LaTeX Font Warning: Font shape `T1/latinmodern-math.otf(0)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 170.
+(Font)              using `T1/cmr/m/n' instead on input line 163.
 
 
 Package unicode-math Warning: The first font loaded by unicode-math must be an
@@ -829,24 +829,24 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Trying to load font information for T1+latinmodern-math.otf
-(1) on input line 170.
-LaTeX Font Info:    No file T1latinmodern-math.otf(1).fd. on input line 170.
+(1) on input line 163.
+LaTeX Font Info:    No file T1latinmodern-math.otf(1).fd. on input line 163.
 
 LaTeX Font Warning: Font shape `T1/latinmodern-math.otf(1)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 170.
+(Font)              using `T1/cmr/m/n' instead on input line 163.
 
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 170.
+(Font)              `operators' in the math version `normal' on input line 163.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> T1/latinmodern-math.otf(1)/m/n on input
- line 170.
+ line 163.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 170.
+(Font)              `operators' in the math version `bold' on input line 163.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> T1/latinmodern-math.otf(1)/b/n on inpu
-t line 170.
-Package hyperref Info: Link coloring OFF on input line 170.
+t line 163.
+Package hyperref Info: Link coloring OFF on input line 163.
 (/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -858,9 +858,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 170.
-LaTeX Info: Redefining \pageref on input line 170.
-LaTeX Info: Redefining \nameref on input line 170.
+LaTeX Info: Redefining \ref on input line 163.
+LaTeX Info: Redefining \pageref on input line 163.
+LaTeX Info: Redefining \nameref on input line 163.
 (./template.out) (./template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
@@ -900,32 +900,32 @@ LaTeX Info: Redefining \nameref on input line 170.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-72.
+65.
 (/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-172.
+165.
 (/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-172.
+165.
 (/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 172.
+(Font)              <12> on input line 165.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 172.
+(Font)              <8> on input line 165.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 172.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 172
+(Font)              <6> on input line 165.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 165
 .
 (/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 172
+LaTeX Font Info:    Trying to load font information for U+msb on input line 165
 .
 (/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -934,78 +934,105 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (./template.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 3.
+(Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-.
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+0.
 (/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 4.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 10.
 )
 \tf@toc=\write6
 \openout6 = `template.toc'.
 
 [1
 
-] [2
+]
+Overfull \hbox (31.99532pt too wide) in paragraph at lines 176--177
+[]\T1/lmr/m/n/10 If you are not part of the psyTeachR group, please edit the Go
+ogle An-a-lyt-ics ID in \T1/lmtt/m/n/10 include/google-analytics.html
+ []
+
+[2
 
 ]
 Chapter 1.
 [3
 
 ]
+
+Package hyperref Warning: Suppressing link with empty target on input line 295.
+
+
+File: 01-intro_files/figure-latex/plot-text-labels-1.pdf Graphic file (type pdf
+)
+<use 01-intro_files/figure-latex/plot-text-labels-1.pdf>
+File: 01-intro_files/figure-latex/plot-text-labels-facet-1.pdf Graphic file (ty
+pe pdf)
+<use 01-intro_files/figure-latex/plot-text-labels-facet-1.pdf>
+File: 01-intro_files/figure-latex/plot-shapes-1.pdf Graphic file (type pdf)
+<use 01-intro_files/figure-latex/plot-shapes-1.pdf>
+[4] [5] [6]
 Appendix A.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 204.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 352.
 Missing character: There is no ⌘ ("2318) in font ec-lmr10!
 File: images/rstudio_settings_general_appearance.png Graphic file (type bmp)
 <images/rstudio_settings_general_appearance.png>
 File: images/rstudio_settings_code.png Graphic file (type bmp)
 <images/rstudio_settings_code.png>
-[4
+[7
 
-] [5] [6]
+] [8] [9]
 Appendix B.
 File: images/soundimals_hash.png Graphic file (type bmp)
 <images/soundimals_hash.png>
 
-Overfull \hbox (55.76917pt too wide) in paragraph at lines 308--308
+Overfull \hbox (55.76917pt too wide) in paragraph at lines 456--456
 []\T1/lmr/m/n/10 Figure B.1: [][Image by James Chapman/Soundimals](https://soun
 dimals.tumblr.com/post/167354564886/chapmangamo-
  []
 
 
-LaTeX Warning: Float too large for page by 8.2523pt on input line 309.
+LaTeX Warning: Float too large for page by 8.2523pt on input line 457.
 
-[7
+[10
 
-] [8]
+] [11]
 Appendix C.
-[9
+[12
 
-] [10] (./template.bbl [11
+] [13]
+Appendix D.
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+603.
+(/Users/lisad/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [14
 
-]) [12
+] (./template.bbl [15
+
+]) [16
 
 ] (./template.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 0E36224F2BBBEAAA411BE7C44EB72381;1816.
+(rerunfilecheck)             Checksum: 61737B36B7988BD7E1795C8C05A546B9;2551.
  ) 
 Here is how much of TeX's memory you used:
- 26549 strings out of 478492
- 507228 string characters out of 5861265
- 873896 words of memory out of 5000000
- 46409 multiletter control sequences out of 15000+600000
- 454519 words of font info for 82 fonts, out of 8000000 for 9000
+ 26632 strings out of 478492
+ 509823 string characters out of 5861265
+ 875199 words of memory out of 5000000
+ 46484 multiletter control sequences out of 15000+600000
+ 457822 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,6n,119p,636b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on template.pdf (13 pages).
+Output written on template.pdf (17 pages).

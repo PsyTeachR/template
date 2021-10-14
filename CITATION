@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this template, please cite it as below."
+message: "If you use this template, please cite it as below:"
 authors:
 - family-names: "Lisa"
   given-names: "DeBruine"
   orcid: "https://orcid.org/0000-0002-7523-5539"
 title: "psyTeachR Book Template"
-version: 2.0.
-date-released: 2021-09-17
+version: 2.1
+date-released: 2021-10-14
 url: "https://github.com/psyteachr/template/"

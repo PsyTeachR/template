@@ -7,7 +7,7 @@ bookdown::bs4_book:
     branch: master
     subdir: book
   includes:
-    in_header: include/header.html
+    in_header: include/google-analytics.html
     after_body:
     - include/webex.js
     - include/script.js
